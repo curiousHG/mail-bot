@@ -7,6 +7,7 @@ To run one is required to have a GCP project with OAuth2.0 client ID and secret 
 For this repo purpose i have a message.py file which gives me a function where i provide the name of the recipient and the message to be sent to the recipient. The message is then sent to the recipient.
 
 ```python
+# message.py
 def give_text_html(recipient_name, recipient_company):
     text = f"Dear {recipient_name},\n\n{recipient_company}\n\nRegards,\nSender"
     html = f"""\
