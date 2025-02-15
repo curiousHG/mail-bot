@@ -25,6 +25,9 @@ def give_text_html(recipient_name, recipient_company):
 
 You should create a separate account for testing and add that account has a user of the OAuth2.0 service.
 
+Add your email in a .env file as SENDER_EMAIL as shown in .env.example file.
+
+
 To Run the script:
 ```bash
 python3 main.py
