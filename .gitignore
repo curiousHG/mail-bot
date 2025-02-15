@@ -1,0 +1,7 @@
+.env
+.venv
+__pycache__
+credentials.json
+token.json
+mail.csv
+message.py
